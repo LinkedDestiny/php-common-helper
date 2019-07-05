@@ -18,9 +18,6 @@
   "autoload": {
     "psr-4": {
       "Common\\": "src/"
-    },
-    "files": [
-      "src/functions.php"
-    ]
+    }
   }
 }
