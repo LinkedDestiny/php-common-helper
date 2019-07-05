@@ -1,0 +1,26 @@
+{
+  "name": "coding-cat/common-helper",
+  "type": "library",
+  "description": "Coding Cat PHP Common Helper",
+
+  "require": {
+    "php": ">=7.2",
+    "ext-swoole": ">=4.3.4",
+    "ext-bcmath": "*",
+    "ext-openssl": "*",
+    "ext-json": "*",
+
+    "marc-mabe/php-enum": "v3.0.2",
+    "firebase/php-jwt": "^5.0.0",
+    "qiniu/php-sdk": "^7.2"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Common\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  }
+}
