@@ -11,8 +11,7 @@
     "ext-json": "*",
 
     "marc-mabe/php-enum": "v3.0.2",
-    "firebase/php-jwt": "^5.0.0",
-    "qiniu/php-sdk": "^7.2"
+    "firebase/php-jwt": "^5.0.0"
   },
 
   "autoload": {
