@@ -5,7 +5,7 @@
 
   "require": {
     "php": ">=7.1",
-    "ext-swoole": ">=4.3.4",
+    "ext-swoole": ">=4.3.1",
     "ext-bcmath": "*",
     "ext-openssl": "*",
     "ext-json": "*",
