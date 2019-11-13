@@ -10,7 +10,6 @@
     "ext-openssl": "*",
     "ext-json": "*",
 
-    "marc-mabe/php-enum": "v3.0.2",
     "firebase/php-jwt": "^5.0.0"
   },
 
