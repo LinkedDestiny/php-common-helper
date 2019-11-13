@@ -4,8 +4,7 @@
   "description": "Coding Cat PHP Common Helper",
 
   "require": {
-    "php": ">=7.2",
-    "ext-swoole": ">=4.3.4",
+    "php": ">=7.1",
     "ext-bcmath": "*",
     "ext-openssl": "*",
     "ext-json": "*",
