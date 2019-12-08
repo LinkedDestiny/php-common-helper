@@ -102,4 +102,15 @@ class ArrayHelper
     {
         return is_array($obj) || $obj instanceof \ArrayAccess;
     }
+
+    public static function array_remove(array $arr, $value)
+    {
+        $keys = array_keys($arr, $value);
+        if(!empty($keys)){
+            foreach ($keys as $key) {
+                unset($arr[$key]);
+            }
+        }
+        return $arr;
+    }
 }
